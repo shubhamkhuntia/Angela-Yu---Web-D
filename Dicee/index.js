@@ -17,9 +17,9 @@ var image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src", randomsource2);
 
 if (randomnumber1>randomnumber2)
-{document.querySelector("h1").innerHTML = "Shubham wins ! Party de Shruti";}
+{document.querySelector("h1").innerHTML = "Shubham wins ! Party de Shruti 😁";}
 else if (randomnumber2>randomnumber1)
-{document.querySelector("h1").innerHTML = "Shruti wins ! Party de Shruti";}
+{document.querySelector("h1").innerHTML = "Shruti wins ! Party de Shruti 🥳";}
 else {
   document.querySelector("h1").innerHTML = " Draw";
 }
